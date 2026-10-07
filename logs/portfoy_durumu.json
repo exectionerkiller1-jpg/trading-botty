@@ -1,0 +1,16 @@
+{
+  "baslangic_bakiye": 100000.0,
+  "nakit": 100000.0,
+  "komisyon_orani": 0.001,
+  "pozisyonlar": {},
+  "toplam_komisyon": 0.0,
+  "equity_egrisi": [
+    [
+      "2026-10-07T20:57:54",
+      100000.0
+    ]
+  ],
+  "ilk_calisma_zamani": "2026-10-07T20:57:54",
+  "calisma_sayisi": 1,
+  "islem_gecmisi": []
+}
