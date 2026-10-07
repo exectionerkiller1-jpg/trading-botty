@@ -20,9 +20,13 @@
     [
       "2026-10-07T22:06:11",
       100000.0
+    ],
+    [
+      "2026-10-07T22:40:34",
+      100000.0
     ]
   ],
   "ilk_calisma_zamani": "2026-10-07T20:57:54",
-  "calisma_sayisi": 4,
+  "calisma_sayisi": 5,
   "islem_gecmisi": []
 }
