@@ -1,0 +1,38 @@
+name: Trading Bot Otomatik Çalıştırma
+
+on:
+  schedule:
+    # Her 30 dakikada bir çalışır (UTC saatine göre). GitHub bazen birkaç dakika
+    # gecikmeyle tetikleyebilir, bu normaldir.
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+    # Bu sayede GitHub'ın "Actions" sekmesinden botu istediğin an elle de tetikleyebilirsin.
+
+permissions:
+  contents: write  # bot sonuçlarını (logs/ klasörünü) repoya geri yazabilsin diye
+
+jobs:
+  bot-calistir:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Kodu indir
+        uses: actions/checkout@v4
+
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Kütüphaneleri kur
+        run: pip install -r requirements.txt
+
+      - name: Botu çalıştır
+        run: python main.py
+
+      - name: Sonuçları repoya geri kaydet
+        run: |
+          git config --local user.email "bot@users.noreply.github.com"
+          git config --local user.name "Trading Bot"
+          git add logs/
+          git diff --quiet --cached || git commit -m "Bot çalıştırma sonucu: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
