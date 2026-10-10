@@ -1,8 +1,8 @@
 {
   "ilk_calisma_zamani": "2026-10-07T20:57:54",
-  "rapor_zamani": "2026-10-10T09:06:12",
-  "gecen_gun_sayisi": 2.51,
-  "bot_kac_kez_calisti": 121,
+  "rapor_zamani": "2026-10-10T09:41:29",
+  "gecen_gun_sayisi": 2.53,
+  "bot_kac_kez_calisti": 122,
   "baslangic_bakiye_tl": 100000.0,
   "guncel_portfoy_degeri_tl": 99975.0,
   "kar_zarar_tl": -25.0,
@@ -18,7 +18,7 @@
     "BTC/USDT": {
       "miktar": 0.301417,
       "ortalama_maliyet": 82858.54,
-      "guncel_fiyat": 82858.54
+      "guncel_fiyat": null
     }
   }
 }
