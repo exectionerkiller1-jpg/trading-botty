@@ -1,12 +1,12 @@
 {
   "ilk_calisma_zamani": "2026-10-07T20:57:54",
-  "rapor_zamani": "2026-10-13T00:11:38",
-  "gecen_gun_sayisi": 5.13,
-  "bot_kac_kez_calisti": 246,
+  "rapor_zamani": "2026-10-13T00:55:30",
+  "gecen_gun_sayisi": 5.17,
+  "bot_kac_kez_calisti": 247,
   "baslangic_bakiye_tl": 100000.0,
-  "guncel_portfoy_degeri_tl": 98845.78,
-  "kar_zarar_tl": -1154.22,
-  "getiri_yuzde": -1.15,
+  "guncel_portfoy_degeri_tl": 99665.31,
+  "kar_zarar_tl": -334.69,
+  "getiri_yuzde": -0.33,
   "toplam_islem_sayisi": 3,
   "kapanan_islem_sayisi": 1,
   "kazanan_islem": 0,
@@ -18,7 +18,7 @@
     "ETH/USDT": {
       "miktar": 7.36002,
       "ortalama_maliyet": 2545.0,
-      "guncel_fiyat": 2433.65
+      "guncel_fiyat": null
     }
   }
 }
