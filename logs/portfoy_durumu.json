@@ -1,14 +1,9 @@
 {
   "baslangic_bakiye": 100000.0,
-  "nakit": 74020.75512806575,
+  "nakit": 98088.97636642538,
   "komisyon_orani": 0.001,
-  "pozisyonlar": {
-    "BTC/USDT": {
-      "miktar": 0.29825041433405053,
-      "ortalama_maliyet": 82645.02
-    }
-  },
-  "toplam_komisyon": 110.91041204044068,
+  "pozisyonlar": {},
+  "toplam_komisyon": 135.00272559235222,
   "equity_egrisi": [
     [
       "2026-10-07T20:57:54",
@@ -2821,10 +2816,14 @@
     [
       "2026-10-24T07:56:19",
       98669.66658571165
+    ],
+    [
+      "2026-10-24T08:19:11",
+      98088.97636642538
     ]
   ],
   "ilk_calisma_zamani": "2026-10-07T20:57:54",
-  "calisma_sayisi": 703,
+  "calisma_sayisi": 704,
   "islem_gecmisi": [
     {
       "zaman": "2026-10-10T09:06:10",
@@ -2875,6 +2874,16 @@
       "tutar": 24673.585042688585,
       "komisyon": 24.673585042688586,
       "sebep": "MACD sinyal çizgisinin üstünde -> momentum yukarı; Kısa SMA, uzun SMA üstünde -> yükseliş trendi"
+    },
+    {
+      "zaman": "2026-10-24T08:19:08",
+      "sembol": "BTC/USDT",
+      "yon": "SAT",
+      "fiyat": 80778.81,
+      "miktar": 0.29825041433405053,
+      "tutar": 24092.313551911542,
+      "komisyon": 24.09231355191154,
+      "sebep": "MACD sinyal çizgisinin altında -> momentum aşağı; Kısa SMA, uzun SMA altında -> düşüş trendi"
     }
   ]
 }
