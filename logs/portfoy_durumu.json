@@ -1,9 +1,18 @@
 {
   "baslangic_bakiye": 100000.0,
-  "nakit": 98088.97636642538,
+  "nakit": 55175.04920611427,
   "komisyon_orani": 0.001,
-  "pozisyonlar": {},
-  "toplam_komisyon": 135.00272559235222,
+  "pozisyonlar": {
+    "BTC/USDT": {
+      "miktar": 0.3006339775661372,
+      "ortalama_maliyet": 81486.87
+    },
+    "ETH/USDT": {
+      "miktar": 7.7419250577848056,
+      "ortalama_maliyet": 2373.22
+    }
+  },
+  "toplam_komisyon": 177.91665275266334,
   "equity_egrisi": [
     [
       "2026-10-07T20:57:54",
@@ -3420,10 +3429,14 @@
     [
       "2026-10-28T19:20:45",
       98088.97636642538
+    ],
+    [
+      "2026-10-28T20:08:25",
+      98046.06243926506
     ]
   ],
   "ilk_calisma_zamani": "2026-10-07T20:57:54",
-  "calisma_sayisi": 854,
+  "calisma_sayisi": 855,
   "islem_gecmisi": [
     {
       "zaman": "2026-10-10T09:06:10",
@@ -3484,6 +3497,26 @@
       "tutar": 24092.313551911542,
       "komisyon": 24.09231355191154,
       "sebep": "MACD sinyal çizgisinin altında -> momentum aşağı; Kısa SMA, uzun SMA altında -> düşüş trendi"
+    },
+    {
+      "zaman": "2026-10-28T20:08:23",
+      "sembol": "BTC/USDT",
+      "yon": "AL",
+      "fiyat": 81486.87,
+      "miktar": 0.3006339775661372,
+      "tutar": 24522.244091606346,
+      "komisyon": 24.522244091606346,
+      "sebep": "MACD sinyal çizgisinin üstünde -> momentum yukarı; Kısa SMA, uzun SMA üstünde -> yükseliş trendi"
+    },
+    {
+      "zaman": "2026-10-28T20:08:25",
+      "sembol": "ETH/USDT",
+      "yon": "AL",
+      "fiyat": 2373.22,
+      "miktar": 7.7419250577848056,
+      "tutar": 18391.68306870476,
+      "komisyon": 18.391683068704758,
+      "sebep": "MACD sinyal çizgisinin üstünde -> momentum yukarı; Kısa SMA, uzun SMA üstünde -> yükseliş trendi"
     }
   ]
 }
